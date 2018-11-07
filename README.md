@@ -1,5 +1,6 @@
 # patient_evolution
 Android app for patient evolution monitoring in hospitals when there's no Internet connection
+
 The purpose of this application is to store temporary data to be transferred to other applications through XML files
 
 Developed in Android Studio 2.3.3 in 2017
