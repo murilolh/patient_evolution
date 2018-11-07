@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Patient Evolution</string>
+
+    <string name="authorizations">Authorizations</string>
+    <string name="evolutions">Evolutions</string>
+    <string name="emails">E-mails</string>
+
+    <string name="newAuthorization">New Authorization</string>
+    <string name="setEmails">Set E-mails</string>
+    <string name="imp">Import List</string>
+    <string name="send">Send List by E-mail</string>
+    <string name="clearList">Clear List</string>
+    <string name="viewAll">View All</string>
+    <string name="version">Version</string>
+    <string name="sort">Sort</string>
+    <string name="filter">Filter</string>
+
+    <string name="newEvolution">New Evolution</string>
+    <string name="editAuthorization">Edit Authorization</string>
+    <string name="deleteAuthorization">Delete Authorization</string>dateFormat
+
+    <string name="editEvolution">Edit Evolution</string>
+    <string name="deleteEvolution">Delete Evolution</string>
+
+    <string name="authorization">Authorization</string>
+    <string name="visit">Visit Number</string>
+    <string name="hospital">Hospital</string>
+    <string name="patient">Patient</string>
+    <string name="responsible">Responsible</string>
+    <string name="date">Date</string>
+    <string name="hour">Hour</string>
+    <string name="evolution">Evolution</string>
+    <string name="email">E-mail</string>
+    <string name="email1">E-mail 1</string>
+    <string name="email2">E-mail 2</string>
+    <string name="email3">E-mail 3</string>
+    <string name="email4">E-mail 4</string>
+    <string name="email5">E-mail 5</string>
+
+    <string name="save">Save</string>
+    <string name="newEmail">New E-mail</string>
+
+    <string name="clear"></string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="dateFormat">ddMMyyyy</string>
+    <string name="timeFormat">HHmm</string>
+    <string name="versionNumber">Patient-Evolution-1.0</string>
+    <string name="encoding">ISO_8859_1</string>
+
+    <string name="msgSaved">%1$s saved!</string>
+    <string name="msgDeleted">%1$s deleted!</string>
+    <string name="msgUpdated">%1$s updated!</string>
+    <string name="msgAllRequired">All fields are required!</string>
+    <string name="msgNotSave">Could not save!</string>
+    <string name="msgNotUpdate">Could not update!</string>
+    <string name="msgNotGenerate">Could not generate file!</string>
+    <string name="msgDelete">Delete %1$s?</string>
+    <string name="msgDeleteAuthorization">Delete Authorization and all Evolutions?</string>
+    <string name="msgChooseFile">Choose a file</string>
+    <string name="msgChooseEmailApp">Choose an e-mail application</string>
+    <string name="msgFileSubject">Evolution file %1$s - %2$s</string>
+    <string name="msgFileText">Evolution file generated in %1$s - %2$s</string>
+    <string name="msgFileGenerated">File generated!</string>
+    <string name="msgClearedList">Cleared authorization list</string>
+    <string name="msgClearList">Clear authorization list?</string>  
+
+</resources>

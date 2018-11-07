@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/newAuthorization" android:title="@string/newAuthorization" >
+    </item>
+    <item android:id="@+id/setEmails" android:title="@string/setEmails" >
+    </item>
+    <item android:id="@+id/importList" android:title="@string/imp" >
+    </item>
+    <item android:id="@+id/sendList" android:title="@string/send" >
+    </item>
+    <item android:id="@+id/clearList" android:title="@string/clearList" >
+    </item>
+    <item android:id="@+id/viewAll" android:title="@string/viewAll" >
+    </item>
+    <item android:id="@+id/version" android:title="@string/version" >
+    </item>
+    <item android:id="@+id/sort" android:title="@string/sort" >
+        <menu>
+            <item android:id="@+id/sortAuthorization" android:title="@string/authorization" />
+            <item android:id="@+id/sortHospital" android:title="@string/hospital" />
+            <item android:id="@+id/sortPatient" android:title="@string/patient" />
+        </menu>
+    </item>
+</menu>

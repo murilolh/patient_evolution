@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:text="@string/emails"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/lblEmail1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtTitle"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/email1" />
+
+        <EditText
+            android:id="@+id/txtEmail1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/lblEmail1"
+            android:layout_alignBottom="@+id/lblEmail1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/lblEmail1"
+            android:layout_toRightOf="@+id/lblEmail1"
+            android:inputType="text"
+            android:maxLength="50" />
+
+        <TextView
+            android:id="@+id/lblEmail2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtEmail1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/email2" />
+
+        <EditText
+            android:id="@+id/txtEmail2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/lblEmail2"
+            android:layout_alignBottom="@+id/lblEmail2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/lblEmail2"
+            android:layout_toRightOf="@+id/lblEmail2"
+            android:inputType="text"
+            android:maxLength="50" />
+
+        <TextView
+            android:id="@+id/lblEmail3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtEmail2"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/email3" />
+
+        <EditText
+            android:id="@+id/txtEmail3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/lblEmail3"
+            android:layout_alignBottom="@+id/lblEmail3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/lblEmail3"
+            android:layout_toRightOf="@+id/lblEmail3"
+            android:inputType="text"
+            android:maxLength="50" />
+
+        <TextView
+            android:id="@+id/lblEmail4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtEmail3"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/email4" />
+
+        <EditText
+            android:id="@+id/txtEmail4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/lblEmail4"
+            android:layout_alignBottom="@+id/lblEmail4"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/lblEmail4"
+            android:layout_toRightOf="@+id/lblEmail4"
+            android:inputType="text"
+            android:maxLength="50" />
+
+        <TextView
+            android:id="@+id/lblEmail5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtEmail4"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/email5" />
+
+        <EditText
+            android:id="@+id/txtEmail5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/lblEmail5"
+            android:layout_alignBottom="@+id/lblEmail5"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/lblEmail5"
+            android:layout_toRightOf="@+id/lblEmail5"
+            android:inputType="text"
+            android:maxLength="50" />
+
+        <Button
+            android:id="@+id/btnSaveEvolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/txtEmail5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:onClick="save"
+            android:text="@string/save" />
+
+    </RelativeLayout>
+</ScrollView>

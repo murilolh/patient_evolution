@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_authorization"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.patient_evolution.activity.AuthorizationActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="@string/authorization"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lblEmail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtTitle"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/authorization" />
+
+    <EditText
+        android:id="@+id/txtEmail1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblEmail1"
+        android:layout_alignBottom="@+id/lblEmail1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/lblEmail1"
+        android:layout_toRightOf="@+id/lblEmail1"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="10" />
+
+    <TextView
+        android:id="@+id/lblHospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblEmail1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/hospital" />
+
+    <EditText
+        android:id="@+id/txtHospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblHospital"
+        android:layout_alignBottom="@+id/lblHospital"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_toEndOf="@+id/lblHospital"
+        android:layout_toRightOf="@+id/lblHospital"
+        android:ems="10"
+        android:inputType="text"
+        android:maxLength="50" />
+
+    <TextView
+        android:id="@+id/lblPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lblHospital"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/patient" />
+
+    <EditText
+        android:id="@+id/txtPatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblPatient"
+        android:layout_alignBottom="@+id/lblPatient"
+        android:layout_marginLeft="59dp"
+        android:layout_marginStart="59dp"
+        android:layout_toEndOf="@+id/lblPatient"
+        android:layout_toRightOf="@+id/lblPatient"
+        android:ems="10"
+        android:inputType="text"
+        android:maxLength="50" />
+
+    <Button
+        android:id="@+id/btnSaveAuthorization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPatient"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:onClick="save"
+        android:text="@string/save" />
+
+    <TextView
+        android:id="@+id/txtTitleEvolutions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtPatient"
+        android:layout_marginTop="24dp"
+        android:text="@string/evolutions"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/listEvolutions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="260dp">
+    </ListView>
+
+</RelativeLayout>

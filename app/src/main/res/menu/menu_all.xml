@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/sortAll" android:title="@string/sort" >
+        <menu>
+            <item android:id="@+id/sortAllAuthorization" android:title="@string/authorization" />
+            <item android:id="@+id/sortAllVisit" android:title="@string/visit" />
+            <item android:id="@+id/sortAllHospital" android:title="@string/hospital" />
+            <item android:id="@+id/sortAllPatient" android:title="@string/patient" />
+            <item android:id="@+id/sortAllDate" android:title="@string/date" />
+        </menu>
+    </item>
+</menu>

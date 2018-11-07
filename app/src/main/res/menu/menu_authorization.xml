@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/newEvolution"
+        android:orderInCategory="100"
+        android:title="@string/newEvolution"/>
+
+    <item
+        android:id="@+id/editAuthorization"
+        android:orderInCategory="100"
+        android:title="@string/editAuthorization"/>
+
+    <item
+        android:id="@+id/deleteAuthorization"
+        android:orderInCategory="100"
+        android:title="@string/deleteAuthorization"/>
+
+</menu>
